@@ -1,0 +1,488 @@
+header{
+  background-image: url(fun.jpg);
+  height: 200px;
+  width: 100%;
+}
+
+body{
+  background-color: whitesmoke;
+  
+}
+.cabecalho__imagem{
+  position: absolute;
+top: 5%;
+left: 70px;
+  
+  
+}
+.cabecalho__botao{
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 60%;
+  margin-right: 15%;
+  padding-top: 4%;
+  gap: 10px;
+ 
+  
+}
+
+.cabecalho__botao__estilo{
+  font-size: 1.35rem;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-family: 'Mukta', sans-serif;
+  transition: 2s all;
+
+}
+
+.cabecalho__botao__estilo:hover{
+  transform:scale(1.1) ;
+
+}
+
+/*cabecalho*/
+
+.contato{
+  display: flex;
+  flex-direction: row;
+}
+
+.contato__imagem{
+  margin: 5% 0;
+  border: 5px solid gray;
+}
+
+.form {
+  width: 100%;
+  max-width: 30rem;
+  margin: 5% 10%;
+
+}
+
+label,
+input,
+textarea,
+button {
+  display: block;
+}
+
+input,
+textarea,
+button {
+  width: 100%;
+  font: inherit;
+  padding: 1.25rem;
+  font-weight: 700;
+}
+
+input,
+textarea {
+  margin-bottom: 1rem;
+  color: black;
+  font-family: 'Mukta', sans-serif;
+
+  border: 0.110rem solid black;
+  
+  transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+input:hover,
+input:focus,
+textarea:hover,
+textarea:focus {
+  outline: none;
+  border-color: #81c02c;
+  box-shadow: 0 0 0 0.3125rem #81c02c;
+}
+
+label {
+  margin-bottom: 0.5rem;
+  color: black;
+  font-size: 20px;
+  font-family: 'Mukta', sans-serif;
+
+}
+
+textarea {
+  min-height: 12.5rem;
+  resize: vertical;
+}
+
+button {
+  font-family: 'Mukta', sans-serif;
+
+  border: none;
+  border-radius: 10px;
+  color: white;
+  background: #81c02c;
+  cursor: pointer;
+  transition: 0.3s;
+  font-size: 20px;
+}
+
+button:hover,
+button:focus {
+  outline: none;
+  background: green;
+}
+
+button:disabled {
+  cursor: not-allowed;
+  background: black;
+}
+.success,
+.error {
+  text-align: center;
+}
+
+.success {
+  padding: 100px;
+  margin-left: 100%;
+ 
+
+  font-size: 2.5rem;
+  color: black;
+  font-family: 'Mukta', sans-serif;
+
+}
+
+.error {
+  padding: 100px;
+  font-size: 2.5rem;
+  font-family: 'Mukta', sans-serif;
+
+  color: tomato;
+}
+
+/*rodape*/
+footer{
+  box-sizing: border-box;
+  background-color: #919191;
+}
+
+
+.rodape{ 
+  padding: 40px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  gap: 50px;
+}
+
+.rodape__imagem{
+  align-items: center;
+  
+
+}
+
+.rodape__onde{
+  display: flex;
+  flex-direction: column;
+      
+  
+}
+
+.rodape__copyright{
+  padding-bottom: 0px;
+}
+
+.rodape__copyright__estilo{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  
+  
+  font-family: 'Mukta', sans-serif;
+  font-size: 0.938rem;
+  color: white;
+  display: flex;
+  flex-direction:column ;
+  justify-content: baseline;
+  padding-top: 30px;
+  padding-bottom: 10px;
+  
+
+
+}
+
+
+
+
+.rodape__contato{
+  display: flex;
+  flex-direction: column;
+  
+  
+
+}
+
+.rodape__titulo{
+  font-family: 'Mukta', sans-serif;
+  padding: 10px 0;
+  font-size: 1.875rem;
+  color: white;
+  font-weight: bold;
+  
+
+}
+
+.rodape__texto{
+  font-family: 'Mukta', sans-serif;
+  font-size: 1.25rem;
+  color: white;
+  padding: 10px 0;
+  
+}
+
+
+/*sobre nos */
+main{
+box-sizing: border-box;
+}
+
+.titulo__main{
+background-color: #ECEBEC;
+text-align: center;
+padding: 3.125rem 0;
+}
+
+.titulo__main__titulo{
+font-family: 'Mukta', sans-serif;
+color: #1E1E1E;
+font-size: 3.75rem;
+padding: 0.625rem;
+}
+
+.titulo__main__texto{
+font-family: 'Mukta', sans-serif;
+font-size: 1.875rem;
+color: #81c02c;
+
+}
+
+.explicacao{
+padding: 100px 0;
+display: flex;
+margin: 3.125rem 12.5rem;
+justify-content: space-between;
+gap: 6.25rem;
+
+}
+
+.explicacao__info{
+font-family: 'Mukta', sans-serif;
+padding: 50px 50px;
+width: 40.25rem;
+font-size: 2rem;
+border: #919191 solid;
+border-radius: 10px;
+
+}
+
+/*sobre nos*/
+
+
+
+@media(max-width: 900px){
+
+  /*cabecalho*/
+  .cabecalho__imagem{
+      width: auto;
+      position: absolute;
+      top: 2%;
+      left: 27%;
+      
+  }
+
+  .cabecalho__imagem2{
+    width: 240px;
+
+  }
+
+  .cabecalho__botao{
+  
+      margin-left: 5%;
+      margin-right: 5%;
+      padding-top: 15%;
+      gap: 10px;
+      
+     
+      
+  }
+  .cabecalho__botao__estilo{
+      font-size: 1.35rem;
+      padding: 20px 0;
+     
+  
+  }
+
+
+  
+  .form{
+      width: 75%;
+  }
+
+
+  .contato{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .contato__imagem{
+    margin: 5% 10%;
+    width: 80%;
+  }
+
+  input,
+  textarea,
+  button {
+    width: 100%;
+    font: inherit;
+    padding: 0.5rem;
+    font-weight: 700;
+  }
+
+  footer{
+      width: auto;
+  }
+
+
+
+  .rodape__onde{
+      display: none;
+          
+  }    
+
+  .rodape__contato{
+      display: none;
+  }
+
+/*cabecalho*/
+
+.explicacao{
+  flex-direction: column;
+  justify-content: space-between;
+  margin:0px 50px;
+ }
+
+.explicacao__maps{
+  width: auto;
+}
+
+.explicacao__info{
+  width: auto;
+  font-size: 1.25rem;
+}
+
+}
+/*------------------------------------------------------------------------------------------------------*/
+@media(max-width: 400px){
+
+/*cabecalho*/
+header{
+  header{
+    
+    height: 200px;
+}
+  width: auto;
+
+}
+.cabecalho__imagem{
+   
+    position: absolute;
+    top: 2%;
+    left: 20%;
+    
+}
+
+.cabecalho__imagem2{
+  width: 240px;
+}
+
+.cabecalho__botao{
+
+    
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-top: 15%;
+    gap: 5px;
+    
+   
+    
+}
+.cabecalho__botao__estilo{
+    font-size: 1.25rem;
+   
+
+}
+
+
+
+.form{
+    width: 75%;
+}
+
+.contato{
+  display: flex;
+  flex-direction: column;
+}
+
+.contato__imagem{
+  margin: 5% 10%;
+  width: 80%;
+}
+
+
+input,
+textarea,
+button {
+  width: 100%;
+  font: inherit;
+  padding: 0.5rem;
+  font-weight: 700;
+}
+
+footer{
+    width: auto;
+   
+}
+
+.rodape__onde{
+    display: none;
+        
+}    
+
+.rodape__contato{
+    display: none;
+}
+
+
+
+.rodape__imagem1{
+  width: 70%;
+  margin: 0 50px;
+}
+
+/*cabecalho*/
+/*sobre*/
+.explicacao{
+flex-direction: column;
+justify-content: space-between;
+margin:0px 20px;
+}
+
+.explicacao__maps{
+width: auto;
+height: auto;
+}
+
+.explicacao__info{
+width: auto;
+
+font-size: 1.25rem;
+}
+
+}
